@@ -42,3 +42,44 @@ print (ls)
 
 # Longitud de una lista
 print (len(ls))
+
+# Bucle for con listas
+magicians = ['Gandalf', 'Saruman', 'Harry Potter']
+for magician in magicians:
+    print (magician)
+    
+# Más bucle for con listas
+magicians = ['Gandalf', 'Saruman', 'Harry Potter']
+for magician in magicians:
+    print (f'El mago {magician} hace buenos trucos')
+print ('Esto se repite una sola vez por que no está sangrada dentro del bucle for')
+    
+# Range para crear una lista de números
+ls = list(range(1, 11))
+print (ls)
+
+# Segunda potencia 
+squares = []
+for i in range(1, 11):
+    square = i ** 2
+    squares.append(square)
+    
+# min, max, sum; máximo, mínimo y suma de los números de una lista
+numeros = [1, 2, 3, 4, 5, 6]
+print (max(numeros))
+print (min(numeros))
+print (sum(numeros))
+
+# Usar el bucle for con un subconjunto de la lista
+for i in numeros[:3]:
+    print (i)
+    
+# Copiar una lista
+coches = ['clío', 'toyota', 'rav4', 'zafira']
+cochesdeeva = coches[:]
+print (cochesdeeva)
+    
+    
+
+    
+    
